@@ -12,13 +12,13 @@ class App extends Component {
   }
 
 calculate(c){
-    var count1 = this.state.count
+    var count2 = this.state.count
     if (c === "+"){
-       count1 += 1
+       count2 += 1
     }else{
-      count1 -=1
+      count2 -=1
     }
-  this.setState({count: count1})
+  this.setState({count: count2})
    
 }
   
