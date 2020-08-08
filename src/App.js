@@ -27,7 +27,7 @@ render(){
   return (
     
     <div className="s1">
-      <h1>Counter</h1>
+      <h1>Counter App</h1>
      <div className="s"><p>{this.state.count}</p></div>
      <br></br>
      <button className="btn1" onClick = {() => this.calculate("+")}>+</button>
